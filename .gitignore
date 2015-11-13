@@ -1,0 +1,14 @@
+.DS_Store
+Installed Packages/*
+!Installed Packages/.gitkeep
+
+Packages/*
+!Packages/Default
+!Packages/User
+Packages/User/*.cache
+Packages/User/*.last-run
+Packages/User/Projects/*
+
+Backup/*
+Local/*
+Packages/User/encoding_cache.json

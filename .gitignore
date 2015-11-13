@@ -11,6 +11,7 @@ Packages/User/*-ca-bundle
 Packages/User/Projects/*
 Packages/User/Color Highlighter/themes/*
 Packages/User/SublimeLinter/*
+Packages/User/*.tmTheme
 
 Backup/*
 Local/*

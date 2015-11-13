@@ -1,0 +1,16 @@
+{
+	"extensions":
+	[
+        "md",
+        "txt",
+        "markdown",
+        ""
+	],
+    "color_scheme": "Packages/User/SublimeLinter/Monokai Extended Bright (SL).tmTheme",
+    "draw_centered": false,
+    "enable_table_editor": true,
+    "highlight_line": true,
+    "line_numbers": true,
+    "translate_tabs_to_spaces": true,
+    "wrap_width": 120
+}

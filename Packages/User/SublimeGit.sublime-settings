@@ -1,0 +1,8 @@
+[
+{
+    "git_executables": {
+        "git": ["C:\\Program Files (x86)\\Git\\bin"],
+        "git_flow": ["C:\\Program Files (x86)\\Git\\bin", "git-flow"],
+    }
+}
+]

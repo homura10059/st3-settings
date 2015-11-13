@@ -1,0 +1,85 @@
+[
+    {
+     "caption": "Reg Replace: WeeklyReport",
+     "command": "reg_replace",
+     "args": {
+        "replacements": [
+            "weeklyRep_1st",
+            "weeklyRep_2nd",
+            "weeklyRep_3rd",
+            "weeklyRep_4th",
+            "weeklyRep_5th",
+            "weeklyRep_6th",
+            "weeklyRep_7th",
+            "weeklyRep_8th"
+            ]
+        }
+    },
+    {
+     "caption": "Reg Replace: AWS-API to markdown",
+     "command": "reg_replace",
+     "args": {
+        "replacements": [
+            "a2m_001",
+            "a2m_002"
+            ]
+        }
+    },
+    {
+     "caption": "Reg Replace: SQL to java sorce",
+     "command": "reg_replace",
+     "args": {
+        "replacements": [
+            "sql2java_001",
+            "sql2java_002"
+            ]
+        }
+    },
+    {
+     "caption": "Reg Replace: SSV to Textile Tabel",
+     "command": "reg_replace",
+     "args": {
+        "replacements": [
+            "ssv2TextileTable_001",
+            "ssv2TextileTable_002",
+            "ssv2TextileTable_003"
+            ]
+        }
+    },
+    {
+     "caption": "Reg Replace: SSV to Trac Tabel",
+     "command": "reg_replace",
+     "args": {
+        "replacements": [
+            "ssv2TracTable_001",
+            "ssv2TracTable_002",
+            "ssv2TracTable_003"
+            ]
+        }
+    },
+    {
+     "caption": "Reg Replace: TSV to Trac Tabel",
+     "command": "reg_replace",
+     "args": {
+        "replacements": [
+            "tsv2TracTable_001",
+            "tsv2TracTable_002",
+            "tsv2TracTable_003"
+            ]
+        }
+    },
+    {
+     "caption": "Reg Replace: change bullet",
+     "command": "reg_replace",
+     "args": {
+        "replacements": [
+            "change_bullet_001",
+            "change_bullet_002",
+            "change_bullet_003",
+            "change_bullet_004",
+            "change_bullet_005",
+            "change_bullet_006"
+            ]
+        }
+    }
+]

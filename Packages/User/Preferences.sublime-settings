@@ -1,0 +1,31 @@
+{
+	"caret_extra_width": 2,
+	"close_windows_when_empty": false,
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"default_encoding": "UTF-8",
+	"default_line_ending": "unix",
+	"disable_formatted_linebreak": true,
+	"draw_white_space": "all",
+	"font_face": "Ricty Diminished Discord Regular",
+	"font_size": 16,
+	"fullwhitespace_viewable": true,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"http_proxy": "http://proxy.host.name:8080",
+	"https_proxy": "https://proxy.host.name:8080",
+	"ignored_packages":
+	[
+		"Markdown",
+		"Vintage"
+	],
+	"line_padding_top": 11,
+	"scroll_past_end": true,
+	"show_line_endings": true,
+	"tab_size": 4,
+	"theme": "Seti.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": false,
+	"vintage_ctrl_keys": true,
+	"vintage_start_in_command_mode": true,
+	"word_wrap": true
+}

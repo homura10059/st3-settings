@@ -1,0 +1,174 @@
+{
+    "replacements": {
+        // redmineの作業時間記録から週報用textileを作る
+        "weeklyRep_1st": {
+            "find": "^[0-9][0-9]_",
+            "replace": " ",
+            "greedy": true,
+            "case": false
+        },
+        "weeklyRep_2nd": {
+            "find": "タスク #[0-9]*[0-9]:",
+            "replace": "",
+            "greedy": true,
+            "case": false
+        },
+        "weeklyRep_3rd": {
+            "find": "^",
+            "replace": "  ",
+            "greedy": true,
+            "case": false
+        },
+        "weeklyRep_4th": {
+            "find": "^    ",
+            "replace": "**",
+            "greedy": true,
+            "case": false
+        },
+        "weeklyRep_5th": {
+            "find": "^  ",
+            "replace": "*",
+            "greedy": true,
+            "case": false
+        },
+        "weeklyRep_6th": {
+            "find": "$",
+            "replace": "H)",
+            "greedy": true,
+            "case": false
+        },
+        "weeklyRep_7th": {
+            "find": "  +[0-9]+.[0-9]+.*  +",
+            "replace": " (",
+            "greedy": true,
+            "case": false
+        },
+        "weeklyRep_8th": {
+            "find": "【.*】",
+            "replace": "",
+            "greedy": true,
+            "case": false
+        },
+        // AWSのAPIをコピーしてきてmarkdownにする
+        "a2m_001": {
+            "find": "\n\n",
+            "replace": "\n",
+            "greedy": true,
+            "case": false
+        },
+        "a2m_002": {
+            "find": "    ",
+            "replace": "    * ",
+            "greedy": true,
+            "case": false
+        },
+        // SQLをjavaソースにする
+        "sql2java_001": {
+            "find": "\n",
+            "replace": " \";\n",
+            "greedy": true,
+            "case": false
+        },
+        "sql2java_002": {
+            "find": "^",
+            "replace": "sql += \"",
+            "greedy": true,
+            "case": false
+        },
+        // SSVからTextileのTableを作る
+        "ssv2TextileTable_001": {
+            "find": " +",
+            "replace": " | ",
+            "greedy": true,
+            "case": false
+        },
+        "ssv2TextileTable_002": {
+            "find": "^",
+            "replace": "| ",
+            "greedy": true,
+            "case": false
+        },
+        "ssv2TextileTable_003": {
+            "find": "$",
+            "replace": " |",
+            "greedy": true,
+            "case": false
+        },
+        // SSVからTracのTableを作る
+        "ssv2TracTable_001": {
+            "find": " +",
+            "replace": " || ",
+            "greedy": true,
+            "case": false
+        },
+        "ssv2TracTable_002": {
+            "find": "^",
+            "replace": "|| ",
+            "greedy": true,
+            "case": false
+        },
+        "ssv2TracTable_003": {
+            "find": "$",
+            "replace": " ||",
+            "greedy": true,
+            "case": false
+        },
+        // TSVからTracのTableを作る
+        "tsv2TracTable_001": {
+            "find": "\t+",
+            "replace": " || ",
+            "greedy": true,
+            "case": false
+        },
+        "tsv2TracTable_002": {
+            "find": "^",
+            "replace": "|| ",
+            "greedy": true,
+            "case": false
+        },
+        "tsv2TracTable_003": {
+            "find": "$",
+            "replace": " ||",
+            "greedy": true,
+            "case": false
+        },
+        // Markdownのbulletを変換する
+        "change_bullet_001": {
+            "find": "    \\*",
+            "replace": "    -",
+            "greedy": true,
+            "case": false
+        },
+        "change_bullet_002": {
+            "find": "        -",
+            "replace": "        +",
+            "greedy": true,
+            "case": false
+        },
+        "change_bullet_003": {
+            "find": "            \\+",
+            "replace": "            *",
+            "greedy": true,
+            "case": false
+        },
+        "change_bullet_004": {
+            "find": "                \\*",
+            "replace": "                -",
+            "greedy": true,
+            "case": false
+        },
+        "change_bullet_005": {
+            "find": "                    -",
+            "replace": "                    +",
+            "greedy": true,
+            "case": false
+        },
+        "change_bullet_006": {
+            "find": "                        \\+",
+            "replace": "                        *",
+            "greedy": true,
+            "case": false
+        }
+    }
+}
+

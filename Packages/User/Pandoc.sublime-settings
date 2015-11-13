@@ -1,0 +1,78 @@
+{
+  "user": {
+    "pandoc-path": "C:\\Users\\PBI06392\\AppData\\Local\\Pandoc\\pandoc.exe",
+    "transformations": {
+      // transformations
+      "HTML Slide (slidy)": {
+        "new-buffer": 1,
+        "scope": {
+          "text.html.markdown": "markdown"
+        },
+        "syntax_file": "Packages/HTML/HTML.tmLanguage",
+        "pandoc-arguments": [
+          "-t", "slidy",
+          "--self-contained",
+          "-o", "C:\\docs\\Slide\\output-slidy.html"
+        ]
+      },
+      "HTML Slide (slideous)": {
+        "new-buffer": 1,
+        "scope": {
+          "text.html.markdown": "markdown"
+        },
+        "syntax_file": "Packages/HTML/HTML.tmLanguage",
+        "pandoc-arguments": [
+          "-t", "slideous",
+          "--self-contained",
+          "-o", "C:\\docs\\Slide\\output-slideous.html"
+        ]
+      },
+      "HTML Slide (dzslides)": {
+        "new-buffer": 1,
+        "scope": {
+          "text.html.markdown": "markdown"
+        },
+        "syntax_file": "Packages/HTML/HTML.tmLanguage",
+        "pandoc-arguments": [
+          "-t", "dzslides",
+          "--self-contained",
+          "-o", "C:\\docs\\Slide\\output-dzslides.html"
+        ]
+      },
+      "HTML Slide (revealjs)": {
+        "new-buffer": 1,
+        "scope": {
+          "text.html.markdown": "markdown"
+        },
+        "syntax_file": "Packages/HTML/HTML.tmLanguage",
+        "pandoc-arguments": [
+          "-t", "revealjs",
+          "--self-contained",
+          "-o", "C:\\docs\\Slide\\output-revealjs.html"
+        ]
+      },
+      "HTML Slide (s5)": {
+        "new-buffer": 1,
+        "scope": {
+          "text.html.markdown": "markdown"
+        },
+        "syntax_file": "Packages/HTML/HTML.tmLanguage",
+        "pandoc-arguments": [
+          "-t", "s5",
+          "--self-contained",
+          "-o", "C:\\docs\\Slide\\output-s5.html"
+        ]
+      },
+      "Textile ": {
+        "new-buffer": 1,
+        "scope": {
+          "text.html.markdown": "markdown"
+        },
+        "pandoc-arguments": [
+          "--to=textile",
+          "--no-highlight",
+        ]
+      },
+    }
+  }
+}

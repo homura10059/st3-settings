@@ -10,6 +10,7 @@ Packages/User/*.last-run
 Packages/User/*-ca-bundle
 Packages/User/Projects/*
 Packages/User/Color Highlighter/themes/*
+Packages/User/SublimeLinter/*
 
 Backup/*
 Local/*

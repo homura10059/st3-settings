@@ -14,7 +14,6 @@
 		"API Blueprint",
 		"BracketHighlighter",
 		"Case Conversion",
-		"codic",
 		"Color Highlighter",
 		"ConvertToUTF8",
 		"DocBlockr",
@@ -39,6 +38,7 @@
 		"SideBarEnhancements",
 		"SqlBeautifier",
 		"Sublime Files",
+		"SublimeCodic",
 		"SublimeERB",
 		"SublimeLinter",
 		"SublimeLinter-javac",
@@ -50,5 +50,9 @@
 		"Vintageous - Region To Selection",
 		"xml2json",
 		"YAML Nav"
+	],
+	"repositories":
+	[
+		"https://bitbucket.org/dat/sublimecodic"
 	]
 }

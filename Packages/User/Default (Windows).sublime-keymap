@@ -9,5 +9,11 @@
         { "key": "setting.command_mode", "operand": false },
         { "key": "setting.is_widget", "operand": false }
     ]
+  },
+  {
+    "keys": ["alt+t"], "command": "codic_translate_string"
+  },
+  {
+    "keys": ["alt+d"], "command": "codic_input_string"
   }
 ]

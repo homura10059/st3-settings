@@ -3,17 +3,23 @@
   { "keys": ["alt+up"], "command": "swap_line_up" },
   { "keys": ["alt+down"], "command": "swap_line_down" },
   { "keys": ["ctrl+shift+c"], "command": "copy" },
-  { "keys": ["j", "j"], "command": "exit_insert_mode",
-    "context":
-    [
-        { "key": "setting.command_mode", "operand": false },
-        { "key": "setting.is_widget", "operand": false }
-    ]
+  { "keys": ["j", "j"],
+    "command": "_enter_normal_mode",
+    "args": {"mode": "mode_insert"},
+    "context": [
+      {"key": "vi_insert_mode_aware"}
+    ] 
   },
-  {
-    "keys": ["alt+t"], "command": "codic_translate_string"
+  { "keys": ["ctrl+["],
+    "command": "_enter_normal_mode",
+    "args": {"mode": "mode_insert"},
+    "context": [
+      {"key": "vi_insert_mode_aware"}
+    ] 
   },
-  {
-    "keys": ["alt+d"], "command": "codic_input_string"
-  }
+  { "keys": ["alt+t"], "command": "codic_translate_string" },
+  { "keys": ["alt+d"], "command": "codic_input_string" },
+  { "keys": ["shift+alt+d"], "command": "dash_doc"},
+  { "keys": ["shift+alt+ctrl+d"], "command": "dash_doc",
+                            "args": { "flip_syntax_sensitive": true } }
 ]

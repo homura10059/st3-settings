@@ -6,7 +6,7 @@
         "markdown",
         ""
 	],
-    "color_scheme": "Packages/User/SublimeLinter/Monokai Extended Bright (SL).tmTheme",
+    "color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
     "draw_centered": false,
     "enable_table_editor": true,
     "highlight_line": true,

@@ -1,6 +1,6 @@
 {
   "user": {
-    "pandoc-path": "C:\\Users\\PBI06392\\AppData\\Local\\Pandoc\\pandoc.exe",
+    "pandoc-path": "C:\\Users\\PBI06392\\AppData\\Local\\Continuum\\anaconda3\\Scripts\\pandoc.exe",
     "transformations": {
       // transformations
       "HTML Slide (slidy)": {

@@ -7,7 +7,7 @@
 	"disable_formatted_linebreak": true,
 	"draw_white_space": "all",
 	"font_face": "Ricty Diminished Discord",
-	"font_size": 16,
+	"font_size": 17,
 	"fullwhitespace_viewable": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -15,9 +15,17 @@
 	"https_proxy": "https://webgate-1.office.nifty.co.jp:8080",
 	"ignored_packages":
 	[
+		"Ant",
+		"Case Conversion",
+		"ElixirSublime",
+		"Groovy Snippets",
 		"Markdown",
-		"RestructuredText",
-		"Vintage"
+		"Pandoc",
+		"SqlBeautifier",
+		"SublimeERB",
+		"Vintage",
+		"Vintageous - Region To Selection",
+		"YAML Nav"
 	],
 	"line_padding_top": 11,
 	"material_theme_bold_tab": true,

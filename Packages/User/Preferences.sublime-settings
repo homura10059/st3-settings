@@ -17,6 +17,7 @@
 	[
 		"Markdown",
 		"RestructuredText",
+		"SublimeCodic",
 		"Vintage"
 	],
 	"line_padding_top": 11,

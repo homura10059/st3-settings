@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"SublimeCodic"
 	],
 	"installed_packages":
 	[
@@ -43,7 +42,6 @@
 		"SideBarEnhancements",
 		"SqlBeautifier",
 		"Sublime Files",
-		"SublimeCodic",
 		"SublimeERB",
 		"SublimeLinter-javac",
 		"SublimeLinter-json",
@@ -55,9 +53,5 @@
 		"Vintageous - Region To Selection",
 		"xml2json",
 		"YAML Nav"
-	],
-	"repositories":
-	[
-		"https://bitbucket.org/dat/sublimecodic"
 	]
 }

@@ -21,5 +21,6 @@
   { "keys": ["alt+d"], "command": "codic_input_string" },
   { "keys": ["shift+alt+d"], "command": "dash_doc"},
   { "keys": ["shift+alt+ctrl+d"], "command": "dash_doc",
-                            "args": { "flip_syntax_sensitive": true } }
+                            "args": { "flip_syntax_sensitive": true } },
+  { "keys": ["ctrl+shift+s"], "command": "auto_save" }
 ]
